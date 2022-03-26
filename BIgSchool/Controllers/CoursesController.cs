@@ -30,6 +30,7 @@ namespace BIgSchool.Controllers
         // GET: Courses
         [Authorize]
         [HttpPost] // lấy dữ liệu từ view qua beginform  tới controller và update data tại model
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {
             if(!ModelState.IsValid) // kiểm tra dữ liệu nhập phía server trước khi lưu vào database nếu nhập sai sẽ được gửi lại trang đang thao tác
