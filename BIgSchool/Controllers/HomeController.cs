@@ -1,6 +1,7 @@
 ﻿using BIgSchool.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,9 +18,10 @@ namespace BIgSchool.Controllers
         public ActionResult Index()
         {
             var upcommingCourses = _dbContext.Courses
-              .Include(c => c.Lecturer) 
-              .Include(c => c.Category)
-              .Where(c => c.DateTime > DateTime.Now);
+              .Where(c => c.DateTime > DateTime.Now)
+              .Include(c => c.Lecturer)
+              .Include(c => c.Category);
+              
                return View(upcommingCourses);
 
         }

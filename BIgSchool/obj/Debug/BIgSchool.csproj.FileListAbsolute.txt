@@ -111,3 +111,11 @@ C:\Users\Thanh Tien\source\repos\BIgSchool\BIgSchool\obj\Debug\BIgSchool.csproj.
 C:\Users\Thanh Tien\source\repos\BIgSchool\BIgSchool\obj\Debug\BIgSchool.Migrations.CreateTableCourse.resources
 C:\Users\Thanh Tien\source\repos\BIgSchool\BIgSchool\obj\Debug\BIgSchool.Migrations.PopulateCategoryTable.resources
 C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\obj\Debug\BIgSchool.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\obj\Debug\BIgSchool.Migrations.AddAttendance.resources
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Web.Http.dll
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Web.Http.xml
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\bin\System.Web.Http.WebHost.xml
+C:\Users\Thanh Tien\source\repos\BigSchool\BIgSchool\obj\Debug\BIgSchool.Migrations.AddFollowingsTable.resources
